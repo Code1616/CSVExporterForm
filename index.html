@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information storage form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <div class="language-switch">
+            <button id="faBtn" class="active">FA</button>
+            <button id="enBtn">EN</button>
+        </div>
+        <h2 id="formTitle">فرم ثبت اطلاعات</h2>
+        <form id="userForm">
+            <input type="text" id="firstName" placeholder="نام" required>
+            <input type="text" id="lastName" placeholder="نام خانوادگی" required>
+            <input type="text" id="mobile" placeholder="شماره موبایل" required>
+            <button type="submit" id="saveBtn">ذخیره اطلاعات</button>
+        </form>
+        <button onclick="downloadCSV()" id="downloadBtn">دانلود فایل CSV</button>
+        <button onclick="clearLocalStorage()" id="clearBtn">حذف اطلاعات ذخیره شده</button>
+    </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
