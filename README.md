@@ -44,7 +44,7 @@ A sleek and bilingual (FA/EN) form application designed to store user data in Lo
 
 ---
 
-## 🗂️ Project Structure  
+# 🗂️ Project Structure  
 - **index.html**: Main HTML structure and layout  
 - **style.css**: Styling and theme definitions  
 - **script.js**: Handles all application logic  
